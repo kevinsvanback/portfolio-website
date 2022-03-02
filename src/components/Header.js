@@ -10,10 +10,10 @@ const Header = () => {
           <Link className={styles.logo} to={'/'}>KS</Link>
           <ul>
             <li><Link className={styles.link} to={'/'}>Home</Link></li>
-            <li><Link className={styles.link} to={'/'}>About</Link></li>
-            <li><Link className={styles.link} to={'/'}>Timeline</Link></li>
-            <li><Link className={styles.link} to={'/'}>Projects</Link></li>
-            <li><Link className={styles.link} to={'/'}>Contact</Link></li>
+            <li><Link className={styles.link} to={'/about'}>About</Link></li>
+            <li><Link className={styles.link} to={'/timeline'}>Timeline</Link></li>
+            <li><Link className={styles.link} to={'/projects'}>Projects</Link></li>
+            <li><Link className={styles.link} to={'/contact'}>Contact</Link></li>
           </ul>
         </nav>
       </div>
