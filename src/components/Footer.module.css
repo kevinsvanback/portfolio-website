@@ -1,5 +1,5 @@
 .footer {
-  background-color: #333;
+  background-color: #1f2833;
   color: #fff;
   height: 80px;
   border-top: 3px solid #39D4D5;
@@ -33,5 +33,5 @@
 }
 
 .icon:hover {
-  color: #39D4D5;
+  color: #66FCF1;
 }
