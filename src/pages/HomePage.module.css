@@ -1,0 +1,16 @@
+.homeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('../images/screenshot-hire-html.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.typewriter {
+  font-size: 64px;
+  line-height: 1.2;
+  color: #fff;
+}
