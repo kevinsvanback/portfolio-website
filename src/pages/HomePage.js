@@ -8,12 +8,7 @@ import styles from './HomePage.module.css';
 
 const HomePage = () => {
   return (
-    // <div className={`${styles.bgImage}, ${starStyles.background}`}>
-    <div>
-      {/* <div className={starStyles.stars} />
-      <div className={starStyles.stars2} />
-      <div className={starStyles.stars3} /> */}
-
+    <>
       <section className={styles.typewriterSection}>
         <div className={styles.profileContainer}>
           <img className={styles.profileImg} src={profileImg} alt=':)' />
@@ -67,7 +62,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
