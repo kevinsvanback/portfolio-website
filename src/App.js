@@ -14,6 +14,7 @@ function App() {
   return (
     <div className={starStyles.background}>
       <div className={starStyles.stars} />
+      <div className={starStyles.starsX} />
       <div className={starStyles.stars2} />
       <div className={starStyles.stars3} />
       <Header />
