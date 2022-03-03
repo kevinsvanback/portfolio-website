@@ -28,11 +28,9 @@ const HomePage = () => {
           </h2>
 
           <div className={styles.bottomLine}></div>
-          <p className={styles.lead}>
-            My front-end development is created using:
-          </p>
+
         </div>
-        <div className={styles.process}>
+        <div className={styles.processContainer}>
           <div className={styles.processChunk}>
             <div className={styles.processIcon}>
               <FontAwesomeIcon icon={faHtml5} size='4x' />
