@@ -20,9 +20,16 @@
   height: 80px;
 }
 
-.social .icon {
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  width: 150px;
+}
+
+.social a {
   color: #fff;
-  margin-right: 16px;
   border: 2px solid #fff;
   border-radius: 50%;
   height: 20px;
@@ -30,6 +37,11 @@
   line-height: 20px;
   text-align: center;
   padding: 8px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
 }
 
 .icon:hover {
