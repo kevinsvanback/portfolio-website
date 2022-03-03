@@ -10,10 +10,15 @@
   height: 70vh;
 }
 
-.profileImg {
-  width: 300px;
-  height: 300px;
+.profileContainer {
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileImg {
+  width: 100%;
 }
 
 .typewriter {
@@ -38,6 +43,7 @@
   text-align: center;
   font-weight: 100;
   text-transform: uppercase;
+  color: #1f2833;
 }
 
 .process {
@@ -107,4 +113,5 @@
   font-size: 1.3rem;
   margin-bottom: 2rem;
   text-align: center;
+  color: #1f2833;
 }

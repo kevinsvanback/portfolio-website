@@ -9,7 +9,9 @@ const HomePage = () => {
   return (
     <>
       <section className={styles.typewriterSection}>
-        <img className={styles.profileImg} src={profileImg} alt=':)' />
+        <div className={styles.profileContainer}>
+          <img className={styles.profileImg} src={profileImg} alt=':)' />
+        </div>
 
         <div className={styles.typewriter}>
           <p>I am Kevin the </p> <Typewriter options={{
