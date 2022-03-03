@@ -70,6 +70,10 @@
   text-align: center;
 }
 
+.processContainer h3 {
+  color: #1f2833;
+}
+
 .processChunk {
   display: flex;
   flex-direction: column;
