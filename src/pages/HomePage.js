@@ -2,17 +2,17 @@ import { faCss3Alt, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import starStyles from '../components/Stars.module.css';
 import profileImg from '../images/profile.jpg';
 import styles from './HomePage.module.css';
 
 
 const HomePage = () => {
   return (
-    <div className={`${styles.bgImage}, ${starStyles.background}`}>
-      <div className={starStyles.stars} />
+    // <div className={`${styles.bgImage}, ${starStyles.background}`}>
+    <div>
+      {/* <div className={starStyles.stars} />
       <div className={starStyles.stars2} />
-      <div className={starStyles.stars3} />
+      <div className={starStyles.stars3} /> */}
 
       <section className={styles.typewriterSection}>
         <div className={styles.profileContainer}>
