@@ -22,14 +22,16 @@ const HomePage = () => {
         </div>
       </section>
       <section className={styles.developmentSection}>
-        <h2 className={styles.sectionTitle}>
-          The Tools I Use For Development
-        </h2>
+        <div className={styles.developmentHeading}>
+          <h2 className={styles.sectionTitle}>
+            The Tools I Use For Development
+          </h2>
 
-        <div className={styles.bottomLine}></div>
-        <p className={styles.lead}>
-          My front-end development is created using:
-        </p>
+          <div className={styles.bottomLine}></div>
+          <p className={styles.lead}>
+            My front-end development is created using:
+          </p>
+        </div>
         <div className={styles.process}>
           <div className={styles.processChunk}>
             <div className={styles.processIcon}>

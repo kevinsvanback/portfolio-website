@@ -7,7 +7,7 @@
   background-image: url('../images/screenshot-hire-html.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 600px;
 }
 
 .profileContainer {
@@ -35,21 +35,34 @@
   overflow: hidden;
 }
 
+.developmentHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .sectionTitle {
   margin-top: 25px;
-  font-size: 2rem;
+  font-size: 32px;
   display: block;
-  padding-bottom: 0.5rem;
+  padding-bottom: 8px;
   text-align: center;
   font-weight: 100;
   text-transform: uppercase;
   color: #1f2833;
 }
 
+.lead {
+  font-size: 21px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #1f2833;
+}
+
 .process {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.5rem;
+  grid-gap: 24px;
   text-align: center;
 }
 
@@ -103,15 +116,29 @@
 
 .bottomLine {
   height: 2px;
-  width: 3rem;
+  width: 48px;
   background: #39D4D5;
   display: block;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 16px auto;
 }
 
-.lead {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  color: #1f2833;
+@media (max-width: 550px) {
+  .process {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  .typewriter {
+    font-size: 45px;
+  }
+
+  .processChunk h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .process {
+    grid-gap: 0;
+  }
 }
