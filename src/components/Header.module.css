@@ -31,9 +31,9 @@
 }
 
 ul {
-  width: 600px;
+  width: 450px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .link {
