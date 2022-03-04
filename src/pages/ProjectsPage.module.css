@@ -1,0 +1,37 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.projectContainer {
+  height: 500px;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.project {
+  z-index: 2;
+  width: 600px;
+  height: 200px;
+  background: #000;
+  background-position: top;
+  transition: ease-in-out 2s;
+}
+
+.project1 {
+  background: url('../images/crypto-tracker.png');
+  background-size: cover;
+}
+
+.project2 {
+  background: url('../images/food-order.png');
+  background-size: cover;
+}
+
+.project:hover {
+  background-position: bottom;
+}

@@ -11,7 +11,7 @@ const Header = () => {
           <ul>
             <li><Link className={styles.link} to={'/'}>Home</Link></li>
             <li><Link className={styles.link} to={'/about'}>About</Link></li>
-            <li><Link className={styles.link} to={'/timeline'}>Timeline</Link></li>
+            {/* <li><Link className={styles.link} to={'/timeline'}>Timeline</Link></li> */}
             <li><Link className={styles.link} to={'/projects'}>Projects</Link></li>
             <li><Link className={styles.link} to={'/contact'}>Contact</Link></li>
           </ul>
