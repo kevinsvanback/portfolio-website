@@ -12,8 +12,8 @@ const ProjectsPage = () => {
             <h1>Crypto Tracker</h1>
             <p>React crypto tracker app displays cryptocurrency prices by market cap.</p>
             <div className={styles.buttonContainer}>
-              <a href={'https://kevinsvanback-react-crypto-tracker.netlify.app/'} target='_blank' className={styles.button}>Live Demo</a>
-              <a href={'https://github.com/kevinsvanback/react-crypto-tracker'} target='_blank' className={styles.button}>Source Code</a>
+              <a href={'https://kevinsvanback-react-crypto-tracker.netlify.app/'} target='_blank' rel='noopener noreferrer' className={styles.button}>Live Demo</a>
+              <a href={'https://github.com/kevinsvanback/react-crypto-tracker'} target='_blank' rel='noopener noreferrer' className={styles.button}>Source Code</a>
             </div>
           </div>
         </div>
@@ -23,8 +23,8 @@ const ProjectsPage = () => {
             <h1>Food Order App</h1>
             <p>React food order app.</p>
             <div className={styles.buttonContainer}>
-              <a href={'https://kevinsvanback-react-food-order-app.netlify.app/'} target='_blank' className={styles.button}>Live Demo</a>
-              <a href={'https://github.com/kevinsvanback/react-food-order-app'} target='_blank' className={styles.button}>Source Code</a>
+              <a href={'https://kevinsvanback-react-food-order-app.netlify.app/'} target='_blank' rel='noopener noreferrer' className={styles.button}>Live Demo</a>
+              <a href={'https://github.com/kevinsvanback/react-food-order-app'} target='_blank' rel='noopener noreferrer' className={styles.button}>Source Code</a>
             </div>
           </div>
         </div>
