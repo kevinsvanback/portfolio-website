@@ -53,6 +53,7 @@
 }
 
 .sectionTitle {
+  z-index: 1;
   font-size: 32px;
   font-weight: 400;
   text-transform: uppercase;
@@ -63,11 +64,6 @@
   height: 2px;
   width: 48px;
   background: #39D4D5;
-}
-
-.lead {
-  font-size: 21px;
-  color: #1f2833;
 }
 
 .processContainer {
