@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7283650b.css",
+    "main.js": "/static/js/main.d5c7efaa.js",
+    "static/media/food-order.png": "/static/media/food-order.ab1522967951be37719f.png",
+    "static/media/crypto-tracker.png": "/static/media/crypto-tracker.ed3be18ba71b27a5afcf.png",
+    "static/media/profile.jpg": "/static/media/profile.1653ab63d267f6e43feb.jpg",
+    "index.html": "/index.html",
+    "main.7283650b.css.map": "/static/css/main.7283650b.css.map",
+    "main.d5c7efaa.js.map": "/static/js/main.d5c7efaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7283650b.css",
+    "static/js/main.d5c7efaa.js"
+  ]
+}
