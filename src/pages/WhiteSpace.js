@@ -3,7 +3,7 @@ import styles from './WhiteSpace.module.css';
 
 const WhiteSpace = () => {
   return (
-    <div className={styles.x}>WhiteSpace</div>
+    <div className={styles.x}></div>
   );
 };
 
