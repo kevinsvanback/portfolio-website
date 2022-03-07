@@ -1,6 +1,6 @@
 .footer {
   /* position: relative; */
-  height: 104px;
+  /* height: 104px; */
   /* bottom: 0; */
   /* margin-top: -104px; */
   /* clear: both; */
@@ -65,12 +65,8 @@
 }
 
 @media (max-width: 550px) {
-  .footer {
-    height: 118px;
-  }
-
   .footerContent {
-    height: 118px;
+    height: 150px;
     flex-direction: column;
     justify-content: space-evenly;
     flex-direction: column-reverse;

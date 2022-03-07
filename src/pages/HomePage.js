@@ -27,10 +27,10 @@ const HomePage = () => {
           <h2 className={styles.sectionTitle}>
             The Core Tools I Use For Development
           </h2>
-
-          <div className={styles.bottomLine}></div>
-
         </div>
+
+        <div className={styles.bottomLine}></div>
+
         <div className={styles.processContainer}>
           <div className={styles.processChunk}>
             <div className={styles.processIcon}>

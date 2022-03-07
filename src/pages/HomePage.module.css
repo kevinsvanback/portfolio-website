@@ -58,6 +58,8 @@
 }
 
 .bottomLine {
+  z-index: 1;
+  margin: 0 auto;
   height: 2px;
   width: 48px;
   background: #39D4D5;
@@ -129,13 +131,13 @@
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 600px) {
   .typewriterSection {
-    height: 500px;
+    height: 550px;
   }
 
   .developmentHeading {
-    height: 160px;
+    height: 120px;
   }
 
   .sectionTitle {
@@ -146,5 +148,11 @@
 @media (max-width: 450px) {
   .typewriter {
     font-size: 45px;
+  }
+}
+
+@media (max-width: 315px) {
+  .developmentHeading {
+    height: 160px;
   }
 }
