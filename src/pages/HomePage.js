@@ -8,7 +8,7 @@ import styles from './HomePage.module.css';
 
 const HomePage = () => {
   return (
-    <>
+    <div className={styles.homePage}>
       <section className={styles.typewriterSection}>
         <div className={styles.profileContainer}>
           <img className={styles.profileImg} src={profileImg} alt=':)' />
@@ -25,7 +25,7 @@ const HomePage = () => {
       <section className={styles.developmentSection}>
         <div className={styles.developmentHeading}>
           <h2 className={styles.sectionTitle}>
-            The Tools I Use For Development
+            The Core Tools I Use For Development
           </h2>
 
           <div className={styles.bottomLine}></div>
@@ -62,7 +62,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

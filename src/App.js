@@ -6,7 +6,6 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
-import WhiteSpace from './pages/WhiteSpace';
 
 
 function App() {
@@ -20,6 +19,7 @@ function App() {
         <div className={starStyles.stars3} />
         <div className={starStyles.stars3X} />
       </div>
+
       <Header />
       <Routes>
         <Route path={'/'} element={<HomePage />} />
@@ -28,7 +28,7 @@ function App() {
         <Route path={'/projects'} element={<ProjectsPage />} />
         <Route path={'/contact'} element={<ContactPage />} />
       </Routes>
-      <WhiteSpace />
+      {/* <WhiteSpace /> */}
       <Footer />
     </div>
   );

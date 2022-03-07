@@ -1,9 +1,6 @@
-.bgImage {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  z-index: 1;
+.homePage {
+  /* padding-bottom: 104px; */
+  color: #fff;
 }
 
 .typewriterSection {

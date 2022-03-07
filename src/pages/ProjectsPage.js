@@ -21,7 +21,7 @@ const ProjectsPage = () => {
           <div className={`${styles.project} ${styles.project2}`}></div>
           <div className={styles.projectInfoContainer}>
             <h1>Food Order App</h1>
-            <p>React food order app.</p>
+            <p>React food order app. Select your items and procees to checkout.</p>
             <div className={styles.buttonContainer}>
               <a href={'https://kevinsvanback-react-food-order-app.netlify.app/'} target='_blank' rel='noopener noreferrer' className={styles.button}>Live Demo</a>
               <a href={'https://github.com/kevinsvanback/react-food-order-app'} target='_blank' rel='noopener noreferrer' className={styles.button}>Source Code</a>

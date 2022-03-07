@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
 
 const Header = () => {
@@ -7,13 +7,14 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <nav className={styles.mainNav}>
-          <Link className={styles.logo} to={'/'}>KS</Link>
+          <NavLink className={styles.logo} to={'/'}>KS</NavLink>
           <ul>
-            <li><Link className={styles.link} to={'/'}>Home</Link></li>
-            <li><Link className={styles.link} to={'/about'}>About</Link></li>
-            {/* <li><Link className={styles.link} to={'/timeline'}>Timeline</Link></li> */}
-            <li><Link className={styles.link} to={'/projects'}>Projects</Link></li>
-            <li><Link className={styles.link} to={'/contact'}>Contact</Link></li>
+            <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/'}>Home</NavLink></li>
+            {/* <li><NavLink className={`${styles.link} ${({ isActive }) => (isActive ? styles.currentPage : '')}`} to={'/'}>Home</NavLink></li> */}
+            <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/about'}>About</NavLink></li>
+            {/* <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/timeline'}>Timeline</NavLink></li> */}
+            <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/projects'}>Projects</NavLink></li>
+            <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/contact'}>Contact</NavLink></li>
           </ul>
         </nav>
       </div>
