@@ -129,7 +129,11 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 580px) {
+  .typewriterSection {
+    height: 500px;
+  }
+
   .developmentHeading {
     height: 160px;
   }
