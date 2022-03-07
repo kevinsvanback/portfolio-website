@@ -12,10 +12,14 @@ import WhiteSpace from './pages/WhiteSpace';
 function App() {
   return (
     <div className={starStyles.background}>
-      <div className={starStyles.stars} />
-      <div className={starStyles.starsX} />
-      <div className={starStyles.stars2} />
-      <div className={starStyles.stars3} />
+      <div className={starStyles.starContainer}>
+        <div className={starStyles.stars} />
+        <div className={starStyles.starsX} />
+        <div className={starStyles.stars2} />
+        <div className={starStyles.stars2X} />
+        <div className={starStyles.stars3} />
+        <div className={starStyles.stars3X} />
+      </div>
       <Header />
       <Routes>
         <Route path={'/'} element={<HomePage />} />
