@@ -1,3 +1,7 @@
-.x {
-  color: white;
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0 auto;
+  color: #fff;
 }

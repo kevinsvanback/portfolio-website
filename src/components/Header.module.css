@@ -1,6 +1,7 @@
-/* .header {
-  margin-bottom: auto;
-} */
+.header {
+  /* Header: 40 + 72 = 112px, Footer: 52 + 60 = 112px */
+  padding-bottom: 72px;
+}
 
 .container {
   display: block;

@@ -9,11 +9,11 @@ import styles from './HomePage.module.css';
 const HomePage = () => {
   return (
     <div className={styles.homePage}>
-      <section className={styles.typewriterSection}>
-        <div className={styles.profileContainer}>
-          <img className={styles.profileImg} src={profileImg} alt=':)' />
-        </div>
+      <div className={styles.profileContainer}>
+        <img className={styles.profileImg} src={profileImg} alt=':)' />
+      </div>
 
+      <section className={styles.typewriterSection}>
         <div className={styles.typewriter}>
           <p>I am Kevin the </p> <Typewriter options={{
             strings: ['frontend developer'],
