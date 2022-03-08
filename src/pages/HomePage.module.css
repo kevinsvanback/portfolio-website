@@ -146,6 +146,12 @@
   }
 }
 
+@media (max-width: 680px) {
+  .developmentHeading {
+    height: 120px;
+  }
+}
+
 @media (max-width: 640px) {
   .processContainer {
     flex-direction: column;
@@ -155,6 +161,8 @@
   .processChunk {
     gap: 10px;
   }
+
+  
 }
 
 @media (max-width: 600px) {
@@ -162,9 +170,7 @@
     height: 550px;
   } */
 
-  .developmentHeading {
-    height: 120px;
-  }
+  
 
   .sectionTitle {
     line-height: 1.4;
@@ -174,6 +180,12 @@
 @media (max-width: 450px) {
   .typewriter {
     font-size: 45px;
+  }
+}
+
+@media (max-width: 395px) {
+  .developmentHeading {
+    height: 160px;
   }
 }
 

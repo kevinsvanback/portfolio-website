@@ -67,7 +67,6 @@
 
 @media (max-width: 550px) {
   .footerContent {
-    height: 150px;
     flex-direction: column;
     justify-content: space-evenly;
     flex-direction: column-reverse;

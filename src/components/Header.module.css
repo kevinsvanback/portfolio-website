@@ -83,26 +83,18 @@ padding-bottom: 8px;
   }
 
   ul {
-    width: 400px;
+    /* width: 400px; */
+    width: 100%;
   }
 
   li {
     margin-bottom: 14px;
   }
-
-  .link {
-    padding-bottom: 0;
-  }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   ul {
-    width: 350px;
-  }
-}
-
-@media (max-width: 400px) {
-  ul {
-    width: 300px;
+    display: flex;
+    flex-direction: column;
   }
 }
