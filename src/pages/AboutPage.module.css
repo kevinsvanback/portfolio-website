@@ -1,7 +1,28 @@
-.x {
+.buttonContainer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  color: white;
+  height: 150px;
+}
+
+.button {
+  z-index: 2;
+  font-family: 'Cairo', sans-serif;
+  padding: 15px 40px;
+  /* width: 150px;
+  height: 30px; */
+  border-radius: 4px;
+  color: #fff;
+  background-color: #39D4D5;
+  border: none;
+  text-align: center;
+  font-size: x-large;
+  align-self: center;
+  transition: all ease-in-out 0.3s;
+}
+
+.icon {
+  margin-right: 10px;
 }
 
 .aboutPage h3, 

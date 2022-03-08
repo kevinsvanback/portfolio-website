@@ -1,12 +1,17 @@
+import { faFilePdf, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import myCV from '../images/CV-kevin-svanback.pdf';
 import styles from './AboutPage.module.css';
 
 const AboutPage = () => {
   return (
     <div className={styles.aboutPage}>
-      <div className={styles.x}>AboutPage</div>
+      <div className={styles.buttonContainer}>
+        <a className={styles.button} download href={myCV} rel='noopener noreferrer'><FontAwesomeIcon className={styles.icon} icon={faFilePdf} />Download CV</a>
+      </div>
 
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -15,7 +20,7 @@ const AboutPage = () => {
           // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           // date="2011 - present"
           iconStyle={{ background: '#39D4D5', color: '#fff' }}
-        // icon={<WorkIcon />}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         >
           <h3 className="vertical-timeline-element-title">2013: Ekonomi</h3>
           <div className={styles.bottomLine}></div>
@@ -28,6 +33,7 @@ const AboutPage = () => {
           className="vertical-timeline-element--work"
           // date="2010 - 2011"
           iconStyle={{ background: '#39D4D5', color: '#fff' }}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">2017: Tekniskt basår</h3>
@@ -49,6 +55,7 @@ const AboutPage = () => {
           className="vertical-timeline-element--work"
           // date="2008 - 2010"
           iconStyle={{ background: '#39D4D5', color: '#fff' }}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">2018: Systemvetenskap</h3>
@@ -72,6 +79,7 @@ const AboutPage = () => {
           className="vertical-timeline-element--work"
           // date="2006 - 2008"
           iconStyle={{ background: '#39D4D5', color: '#fff' }}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">2019: Systemvetenskap, second year</h3>
@@ -93,6 +101,7 @@ const AboutPage = () => {
           className="vertical-timeline-element--education"
           // date="April 2013"
           iconStyle={{ background: '#39D4D5', color: '#fff' }}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         // icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">2020: Systemvetenskap, third year</h3>
@@ -110,6 +119,7 @@ const AboutPage = () => {
           className="vertical-timeline-element--education"
           // date="November 2012"
           iconStyle={{ background: '#39D4D5', color: '#fff' }}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         // icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">2021: Systemvetenskap, end of third year</h3>
@@ -127,6 +137,7 @@ const AboutPage = () => {
           className="vertical-timeline-element--education"
           // date="2002 - 2006"
           iconStyle={{ background: '#39D4D5', color: '#fff' }}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         // icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">Today: Self-education</h3>
