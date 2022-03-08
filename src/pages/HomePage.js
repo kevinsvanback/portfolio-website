@@ -9,6 +9,7 @@ import styles from './HomePage.module.css';
 const HomePage = () => {
   return (
     <div className={styles.homePage}>
+
       <div className={styles.profileContainer}>
         <img className={styles.profileImg} src={profileImg} alt=':)' />
       </div>
@@ -62,6 +63,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
     </div>
   );
 };

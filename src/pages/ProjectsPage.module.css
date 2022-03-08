@@ -8,7 +8,6 @@
   margin: 0 auto;
   /* height: 900px; */
   max-width: 1280px;
-  display: flex;
 }
 
 .projectCard {
@@ -87,6 +86,7 @@
 @media (max-width: 680px) {
   .projectCard {
     width: 400px;
+    /* width: auto; */
   }
 }
 

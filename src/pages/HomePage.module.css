@@ -1,12 +1,12 @@
 .homePage {
   display: flex;
   flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 0 auto;
   gap: 60px;
   color: #fff;
-}
-
-.homePage::before {
-  gap: 60px;
+  width: 1280px;
 }
 
 .typewriterSection {
@@ -17,7 +17,7 @@
   align-items: center;
   text-align: center;
   /* height: 650px; */
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: auto;
 }
 
@@ -43,11 +43,13 @@
 }
 
 .developmentSection {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
-  display: block;
-  width: 1280px;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .developmentHeading {
@@ -130,6 +132,20 @@
   background: #1f2833;
 }
 
+@media (max-width: 1360px) {
+  .homePage{
+    width: 100vw;
+  }
+
+  .developmentSection {
+    /* box-sizing: border-box; */
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+}
+
 @media (max-width: 640px) {
   .processContainer {
     flex-direction: column;
@@ -142,9 +158,9 @@
 }
 
 @media (max-width: 600px) {
-  .typewriterSection {
+  /* .typewriterSection {
     height: 550px;
-  }
+  } */
 
   .developmentHeading {
     height: 120px;
