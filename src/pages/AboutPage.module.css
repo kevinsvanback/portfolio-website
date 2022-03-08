@@ -1,3 +1,19 @@
 .x {
+  display: flex;
+  justify-content: center;
   color: white;
+}
+
+.aboutPage h3, 
+.aboutPage p {
+  color: #1f2833;
+}
+
+.bottomLine {
+  z-index: 1;
+  margin: 0 auto;
+  height: 2px;
+  /* width: 48px; */
+  width: 100%;
+  background: #39D4D5;
 }
