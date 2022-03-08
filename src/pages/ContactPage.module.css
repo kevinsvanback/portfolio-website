@@ -1,7 +1,21 @@
-.contactPage {
+.contactSection {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 40vh;
   gap: 60px;
   margin: 0 auto;
   color: #fff;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.contactInfo {
+  padding: 20px;
 }
