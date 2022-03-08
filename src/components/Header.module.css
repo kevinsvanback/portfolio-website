@@ -1,6 +1,6 @@
 .header {
   /* Header: 40 + 72 = 112px, Footer: 52 + 60 = 112px */
-  padding-bottom: 52px;
+  padding-bottom: 31px;
 }
 
 .container {
@@ -19,8 +19,12 @@
 }
 
 .logo {
- color: #fff;
- font-size: 35px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.logo:hover {
+  color: #39D4D5;
 }
 
 ul {
@@ -42,7 +46,7 @@ color: #fff;
 text-transform: uppercase;
 border-bottom: 3px solid transparent;
 transition: ease-in 0.5s;
-padding-bottom: 8px;
+padding-bottom: 4px;
 }
 
 /* .link::before {
