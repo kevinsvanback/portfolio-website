@@ -31,14 +31,21 @@
   margin-right: 10px;
 }
 
+.leadParagraph {
+  font-style: italic;
+  padding-bottom: 3px;
+}
+
 .aboutPage h3, 
 .aboutPage p {
+  margin: 0;
   color: #1f2833;
 }
 
 .bottomLine {
   z-index: 1;
   margin: 0 auto;
+  margin-bottom: 5px;
   height: 2px;
   /* width: 48px; */
   width: 100%;

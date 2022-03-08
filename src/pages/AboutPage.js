@@ -25,7 +25,7 @@ const AboutPage = () => {
           <h3 className="vertical-timeline-element-title">2013: Ekonomi</h3>
           <div className={styles.bottomLine}></div>
           {/* <h4 className="vertical-timeline-element-subtitle">Nyköping</h4> */}
-          <p>
+          <p className={styles.leadParagraph}>
             Studied economics in high school.
           </p>
         </VerticalTimelineElement>
@@ -39,9 +39,10 @@ const AboutPage = () => {
           <h3 className="vertical-timeline-element-title">2017: Tekniskt basår</h3>
           <div className={styles.bottomLine}></div>
           {/* <h4 className="vertical-timeline-element-subtitle">Norrköping</h4> */}
-          <p>
+          <p className={styles.leadParagraph}>
             Preparation for university.
-            <br />
+          </p>
+          <p>
             - Physics
             <br />
             - Mathematics
@@ -61,9 +62,10 @@ const AboutPage = () => {
           <h3 className="vertical-timeline-element-title">2018: Systemvetenskap</h3>
           <div className={styles.bottomLine}></div>
           {/* <h4 className="vertical-timeline-element-subtitle">Örebro Universitet</h4> */}
-          <p>
+          <p className={styles.leadParagraph}>
             Began my university studies in information systems.
-            <br />
+          </p>
+          <p>
             - Informatik med systemvetenskaplig inriktning, grundkurs
             <br />
             - Interaktionsdesign
@@ -85,9 +87,10 @@ const AboutPage = () => {
           <h3 className="vertical-timeline-element-title">2019: Systemvetenskap, second year</h3>
           <div className={styles.bottomLine}></div>
           {/* <h4 className="vertical-timeline-element-subtitle">Örebro Universitet</h4> */}
-          <p>
+          <p className={styles.leadParagraph}>
             Continued my studies.
-            <br />
+          </p>
+          <p>
             - Databashantering med SQL Server
             <br />
             - Klientprogrammering för webbsystem
@@ -107,9 +110,10 @@ const AboutPage = () => {
           <h3 className="vertical-timeline-element-title">2020: Systemvetenskap, third year</h3>
           <div className={styles.bottomLine}></div>
           {/* <h4 className="vertical-timeline-element-subtitle">Örebro Universitet</h4> */}
-          <p>
+          <p className={styles.leadParagraph}>
             Continued my studies.
-            <br />
+          </p>
+          <p>
             - Retorik och kommunikativt ledarskap
             <br />
             - Måltidskunskap och värdskap
@@ -125,9 +129,10 @@ const AboutPage = () => {
           <h3 className="vertical-timeline-element-title">2021: Systemvetenskap, end of third year</h3>
           <div className={styles.bottomLine}></div>
           {/* <h4 className="vertical-timeline-element-subtitle">Örebro Universitet</h4> */}
-          <p>
+          <p className={styles.leadParagraph}>
             Continued my studies.
-            <br />
+          </p>
+          <p>
             - Informatik med systemvetenskaplig inriktning, kandidatkurs
             <br />
             - Informatik, Systemutvecklingsprojekt
@@ -143,9 +148,10 @@ const AboutPage = () => {
           <h3 className="vertical-timeline-element-title">Today: Self-education</h3>
           <div className={styles.bottomLine}></div>
           {/* <h4 className="vertical-timeline-element-subtitle">Udemy.com</h4> */}
-          <p>
+          <p className={styles.leadParagraph}>
             Udemy.com.
-            <br />
+          </p>
+          <p>
             - HTML
             <br />
             - CSS

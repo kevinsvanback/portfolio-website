@@ -139,7 +139,13 @@
   z-index: 2;
   width: 50px;
   height: auto;
-  animation: animUfo 13s linear infinite;
+  animation: animUfo 14s linear infinite;
+}
+
+@media (max-width: 500px) {
+  .ufo {
+    animation: animUfo 20s linear infinite;
+  }
 }
 
 @keyframes animStar {
