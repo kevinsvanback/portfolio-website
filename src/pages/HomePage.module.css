@@ -73,7 +73,8 @@
   z-index: 1;
   margin: 0 auto;
   height: 2px;
-  width: 48px;
+  /* width: 48px; */
+  width: 65px;
   background: #39D4D5;
 }
 
