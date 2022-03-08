@@ -19,3 +19,11 @@
 .contactInfo {
   padding: 20px;
 }
+
+@media (max-width: 840px) {
+  .contactContainer {
+    flex-direction: column;
+    width: auto;
+    /* height: 10px; */
+  }  
+}
