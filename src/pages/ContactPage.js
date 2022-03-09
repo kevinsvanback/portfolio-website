@@ -1,6 +1,7 @@
 import { faChevronDown, faChevronUp, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
+import arrow from '../images/arrow2.png';
 import styles from './ContactPage.module.css';
 
 const ContactPage = () => {
@@ -68,6 +69,7 @@ const ContactPage = () => {
             </div>
           </div> */}
         </div>
+        <img className={styles.arrowImg} src={arrow} alt=':)' />
       </section>
     </>
   );

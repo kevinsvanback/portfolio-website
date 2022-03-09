@@ -7,6 +7,9 @@
   /* gap: 60px; */
   color: #fff;
   width: 1280px;
+  /* height: auto; */
+  flex-grow: 1;
+
 }
 
 .contactContainer {
@@ -81,6 +84,21 @@
   color: transparent;
 }
 
+.arrowImg {
+  width: 200px;
+  display: flex;
+  align-self: flex-end;
+  margin-top: auto;
+  /* margin-top: 750px;
+  margin-left: 60%; */
+  /* position: relative;
+  left: 60%; */
+  /* margin-top: auto; */
+  /* position: relative;
+  bottom: 100px;
+  left: 100px; */
+}
+
 @media (max-width: 1360px) {
   .contactSection{
     width: 100vw;
@@ -95,6 +113,16 @@
     width: auto;
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  .arrowImg {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .arrowImg {
+    align-self: center;
   }
 }
 
