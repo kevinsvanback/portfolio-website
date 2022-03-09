@@ -26,7 +26,7 @@ const HomePage = () => {
       <section className={styles.developmentSection}>
         <div className={styles.developmentHeading}>
           <h2 className={styles.sectionTitle}>
-            The Core Tools I Use For Development
+            The core tools I use for development
           </h2>
         </div>
 

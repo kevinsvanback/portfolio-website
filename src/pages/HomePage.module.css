@@ -65,7 +65,7 @@
   z-index: 1;
   font-size: 32px;
   font-weight: 400;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #1f2833;
 }
 
