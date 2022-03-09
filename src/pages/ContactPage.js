@@ -69,7 +69,7 @@ const ContactPage = () => {
             </div>
           </div> */}
         </div>
-        <img className={styles.arrowImg} src={arrow} alt=':)' />
+        <img className={styles.arrowImg} src={arrow} alt=':(' />
       </section>
     </>
   );

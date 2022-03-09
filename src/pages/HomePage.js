@@ -11,7 +11,7 @@ const HomePage = () => {
     <div className={styles.homePage}>
 
       <div className={styles.profileContainer}>
-        <img className={styles.profileImg} src={profileImg} alt=':)' />
+        <img className={styles.profileImg} src={profileImg} alt=':(' />
       </div>
 
       <section className={styles.typewriterSection}>
