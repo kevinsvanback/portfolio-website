@@ -48,10 +48,9 @@
 }
 
 .developmentHeading {
-  height: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
 }
@@ -61,6 +60,7 @@
   font-size: 32px;
   font-weight: 400;
   color: #1f2833;
+  margin: 15px;
 }
 
 .bottomLine {
@@ -139,12 +139,6 @@
   }
 }
 
-@media (max-width: 680px) {
-  .developmentHeading {
-    height: 120px;
-  }
-}
-
 @media (max-width: 640px) {
   .processContainer {
     flex-direction: column;
@@ -168,14 +162,9 @@
   }
 }
 
-@media (max-width: 395px) {
-  .developmentHeading {
-    height: 160px;
-  }
-}
-
-@media (max-width: 315px) {
-  .developmentHeading {
-    height: 160px;
+@media (max-width: 350px) {
+  .profileContainer {
+    max-width: 250px;
+    max-height: 250px;
   }
 }
