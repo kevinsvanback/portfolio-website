@@ -8,15 +8,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* height: 150px; */
 }
 
 .button {
   z-index: 2;
   font-family: 'Cairo', sans-serif;
   padding: 15px 40px;
-  /* width: 150px;
-  height: 30px; */
   border-radius: 4px;
   color: #fff;
   background-color: #39D4D5;
@@ -47,7 +44,6 @@
   margin: 0 auto;
   margin-bottom: 5px;
   height: 2px;
-  /* width: 48px; */
   width: 100%;
   background: #39D4D5;
 }

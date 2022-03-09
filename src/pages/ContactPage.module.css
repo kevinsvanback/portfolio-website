@@ -1,24 +1,17 @@
 .contactSection {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   margin: 0 auto;
-  /* gap: 60px; */
   color: #fff;
   width: 1280px;
-  /* height: auto; */
   flex-grow: 1;
-
 }
 
 .contactContainer {
   display: flex;
   flex-direction: column;
-    gap: 30px;
-  /* flex-direction: column; */
+  gap: 30px;
   justify-content: space-between;
-  /* background-color: #fff; */
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -29,21 +22,13 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* padding: 20px; */
-  /* width: 345px; */
-  /* gap: 10px; */
 }
 
 .buttonAndHeadingContainer {
   display: flex;
   justify-content: center;
-  /* margin: 0 auto; */
   gap: 10px;
 }
-
-/* .lastItem {
-  justify-content: end;
-} */
 
 .chevronButton {
   z-index: 2;
@@ -89,27 +74,14 @@
   display: flex;
   align-self: flex-end;
   margin-top: auto;
-  /* margin-top: 750px;
-  margin-left: 60%; */
-  /* position: relative;
-  left: 60%; */
-  /* margin-top: auto; */
-  /* position: relative;
-  bottom: 100px;
-  left: 100px; */
 }
 
 @media (max-width: 1360px) {
   .contactSection{
     width: 100vw;
-    /* max-width: 1280px; */
   }
 
   .contactContainer {
-    /* width: 100%; */
-    /* width: auto; */
-    /* max-width: 1280px; */
-    /* margin: 0 auto; */
     width: auto;
     margin-left: 40px;
     margin-right: 40px;

@@ -7,7 +7,6 @@ import styles from './ContactPage.module.css';
 const ContactPage = () => {
   const [emailIsShown, setEmailIsShown] = useState(false);
   const [phoneIsShown, setPhoneIsShown] = useState(false);
-  // const [addressIsShown, setAddressIsShown] = useState(false);
 
   const showEmailHandler = () => {
     setEmailIsShown(!emailIsShown);
@@ -15,9 +14,6 @@ const ContactPage = () => {
   const showPhoneHandler = () => {
     setPhoneIsShown(!phoneIsShown);
   };
-  // const showAddressHandler = () => {
-  //   setAddressIsShown(!addressIsShown);
-  // };
 
   return (
     <>
@@ -53,21 +49,6 @@ const ContactPage = () => {
               {phoneIsShown && <p>076-3060772</p>}
             </div>
           </div>
-          {/* <div className={styles.contactInfo}>
-            <div className={`${styles.buttonAndHeadingContainer} ${styles.lastItem}`}>
-              <div className={styles.chevronButton} onClick={showAddressHandler}>
-                <FontAwesomeIcon className={styles.chevronIcon} icon={!addressIsShown ? faChevronDown : faChevronUp} />
-              </div>
-              <div className={styles.contactHeading}>
-                <h3>Address</h3>
-                <FontAwesomeIcon className={styles.icon} icon={faAddressCard} />
-              </div>
-            </div>
-            <div className={styles.contactContent}>
-              {!addressIsShown && <p className={styles.invisible}>Apelvägen 9, Trosa</p>}
-              {addressIsShown && <p>Apelvägen 9, Trosa</p>}
-            </div>
-          </div> */}
         </div>
         <img className={styles.arrowImg} src={arrow} alt=':(' />
       </section>

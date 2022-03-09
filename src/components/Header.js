@@ -10,9 +10,7 @@ const Header = () => {
           <NavLink className={styles.logo} to={'/'}>KS</NavLink>
           <ul>
             <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/'}>Home</NavLink></li>
-            {/* <li><NavLink className={`${styles.link} ${({ isActive }) => (isActive ? styles.currentPage : '')}`} to={'/'}>Home</NavLink></li> */}
             <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/about'}>About</NavLink></li>
-            {/* <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/timeline'}>Timeline</NavLink></li> */}
             <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/projects'}>Projects</NavLink></li>
             <li><NavLink className={(navData) => navData.isActive ? `${styles.currentPage} ${styles.link}` : styles.link} to={'/contact'}>Contact</NavLink></li>
           </ul>
