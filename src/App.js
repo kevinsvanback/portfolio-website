@@ -25,11 +25,9 @@ function App() {
       <Routes>
         <Route path={'/'} element={<HomePage />} />
         <Route path={'/about'} element={<AboutPage />} />
-        {/* <Route path={'/timeline'} element={<TimelinePage />} /> */}
         <Route path={'/projects'} element={<ProjectsPage />} />
         <Route path={'/contact'} element={<ContactPage />} />
       </Routes>
-      {/* <WhiteSpace /> */}
       <Footer />
     </div>
   );
