@@ -8,6 +8,7 @@
   max-width: 1280px;
   /* padding: 0 24px; */
   margin: auto;
+  padding: 0 40px;
   overflow: hidden;
 }
 
@@ -72,11 +73,11 @@ padding-bottom: 4px;
   /* transition: none; */
 }
 
-@media (max-width: 1360px) {
+/* @media (max-width: 1360px) {
   .container {
     padding: 0 40px;
   }
-}
+} */
 
 @media (max-width: 580px) {
   .mainNav {
