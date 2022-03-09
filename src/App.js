@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import starStyles from './components/Stars.module.css';
-import ufo from './images/ufo.webp';
+import ufo from './images/ufo.png';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
