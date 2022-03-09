@@ -53,6 +53,7 @@
 .contactHeading .icon,
 .contactHeading h3 {
   margin: auto;
+  line-height: 0;
 }
 
 .chevronIcon {

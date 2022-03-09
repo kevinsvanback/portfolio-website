@@ -14,24 +14,16 @@ const AboutPage = () => {
       </div>
 
       <VerticalTimeline>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          iconStyle={{ background: '#39D4D5', color: '#fff' }}
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-        >
+        <VerticalTimelineElement className="vertical-timeline-element--work" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
           <h3 className="vertical-timeline-element-title">2013: Ekonomi</h3>
-          <div className={styles.bottomLine}></div>
+          <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Studied economics in high school.
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          iconStyle={{ background: '#39D4D5', color: '#fff' }}
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-        >
+        <VerticalTimelineElement className="vertical-timeline-element--work" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
           <h3 className="vertical-timeline-element-title">2017: Tekniskt basår</h3>
-          <div className={styles.bottomLine}></div>
+          <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Preparation for university.
           </p>
@@ -45,13 +37,9 @@ const AboutPage = () => {
             - Computer science
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          iconStyle={{ background: '#39D4D5', color: '#fff' }}
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-        >
+        <VerticalTimelineElement className="vertical-timeline-element--work" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
           <h3 className="vertical-timeline-element-title">2018: Systemvetenskap</h3>
-          <div className={styles.bottomLine}></div>
+          <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Began my university studies in information systems.
           </p>
@@ -67,13 +55,9 @@ const AboutPage = () => {
             - Systemutvecklingsprojekt med Scrum och Extreme Programming
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          iconStyle={{ background: '#39D4D5', color: '#fff' }}
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-        >
+        <VerticalTimelineElement className="vertical-timeline-element--work" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
           <h3 className="vertical-timeline-element-title">2019: Systemvetenskap, second year</h3>
-          <div className={styles.bottomLine}></div>
+          <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Continued my studies.
           </p>
@@ -87,13 +71,9 @@ const AboutPage = () => {
             - Webbsystem med .NET
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          iconStyle={{ background: '#39D4D5', color: '#fff' }}
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-        >
+        <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
           <h3 className="vertical-timeline-element-title">2020: Systemvetenskap, third year</h3>
-          <div className={styles.bottomLine}></div>
+          <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Continued my studies.
           </p>
@@ -103,13 +83,9 @@ const AboutPage = () => {
             - Måltidskunskap och värdskap
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          iconStyle={{ background: '#39D4D5', color: '#fff' }}
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-        >
+        <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
           <h3 className="vertical-timeline-element-title">2021: Systemvetenskap, end of third year</h3>
-          <div className={styles.bottomLine}></div>
+          <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Continued my studies.
           </p>
@@ -119,13 +95,9 @@ const AboutPage = () => {
             - Informatik, Systemutvecklingsprojekt
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          iconStyle={{ background: '#39D4D5', color: '#fff' }}
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-        >
+        <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
           <h3 className="vertical-timeline-element-title">Today: Self-education</h3>
-          <div className={styles.bottomLine}></div>
+          <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Udemy.com.
           </p>

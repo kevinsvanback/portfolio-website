@@ -30,7 +30,7 @@ const HomePage = () => {
           </h2>
         </div>
 
-        <div className={styles.bottomLine}></div>
+        <div className={styles.bottomLine} />
 
         <div className={styles.processContainer}>
           <div className={styles.processChunk}>

@@ -1,7 +1,7 @@
 import { faChevronDown, faChevronUp, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
-import arrow from '../images/arrow2.png';
+import arrow from '../images/arrow.png';
 import styles from './ContactPage.module.css';
 
 const ContactPage = () => {

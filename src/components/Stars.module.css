@@ -2,12 +2,10 @@
   z-index: -2;
   overflow: hidden;
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   margin: auto;
   min-height: 100vh;
-  /* padding-bottom: 104px; */
 }
 
 .starContainer {
@@ -137,6 +135,7 @@
 
 .ufo {
   z-index: 2;
+  margin-bottom: 5px;
   width: 50px;
   height: auto;
   animation: animUfo 14s linear infinite;
