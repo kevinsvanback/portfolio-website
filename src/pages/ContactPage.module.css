@@ -38,6 +38,7 @@
   width: 30px;
   border-radius: 50%;
   background-color: #39D4D5;
+  cursor: pointer;
 }
 
 .chevronButton:hover {
@@ -56,6 +57,10 @@
   line-height: 0;
 }
 
+.contactHeading h3 {
+  cursor: default;
+}
+
 .chevronIcon {
   color: #fff;
   margin: auto;
@@ -64,6 +69,7 @@
 .contactContent {
   background-color: transparent;
   font-size: 30px;
+  cursor: default;
 }
 
 .invisible {
