@@ -69,4 +69,12 @@ padding-bottom: 4px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  li {
+    margin-bottom: 4px;
+  }
+
+  .link {
+    padding-bottom: 1px;
+  }
 }
