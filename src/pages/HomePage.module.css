@@ -161,6 +161,10 @@
 }
 
 @media (max-width: 460px) {
+  .homePage {
+    gap: 30px;
+  }
+
   .profileContainer {
     max-width: 250px;
     max-height: 250px;
@@ -172,10 +176,6 @@
 }
 
 @media (max-width: 375px) {
-  .homePage {
-    gap: 30px;
-  }
-
   .profileContainer {
     max-width: 200px;
     max-height: 200px;

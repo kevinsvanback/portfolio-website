@@ -64,6 +64,12 @@ padding-bottom: 4px;
   }
 }
 
+@media (max-width: 460px) {
+  .header {
+    padding-bottom: 0;
+  }
+}
+
 @media (max-width: 350px) {
   ul {
     display: grid;
