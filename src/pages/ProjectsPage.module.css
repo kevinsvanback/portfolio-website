@@ -63,6 +63,11 @@
 }
 
 .project2 {
+  background: url('../images/chat-room.png');
+  background-size: cover;
+}
+
+.project3 {
   background: url('../images/food-order.png');
   background-size: cover;
 }
