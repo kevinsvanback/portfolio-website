@@ -15,14 +15,14 @@ const AboutPage = () => {
 
       <VerticalTimeline>
         <VerticalTimelineElement className="vertical-timeline-element--work" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
-          <h3 className="vertical-timeline-element-title">2013: Ekonomi</h3>
+          <h3 className="vertical-timeline-element-title">2013: Economics</h3>
           <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Studied economics in high school.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className="vertical-timeline-element--work" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
-          <h3 className="vertical-timeline-element-title">2017: Tekniskt basår</h3>
+          <h3 className="vertical-timeline-element-title">2017: Technical Preparatory Year</h3>
           <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Preparation for university.
@@ -38,61 +38,61 @@ const AboutPage = () => {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className="vertical-timeline-element--work" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
-          <h3 className="vertical-timeline-element-title">2018: Systemvetenskap</h3>
+          <h3 className="vertical-timeline-element-title">2018: Information Systems</h3>
           <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Began my university studies in information systems.
           </p>
           <p>
-            - Informatik med systemvetenskaplig inriktning, grundkurs
+            - Informatics with a specialization in systems science, basic course
             <br />
-            - Interaktionsdesign
+            - Interaction design
             <br />
-            - Kravhantering
+            - Requirements management
             <br />
-            - Objektorienterad analys och design
+            - Object-oriented analysis and design
             <br />
-            - Systemutvecklingsprojekt med Scrum och Extreme Programming
+            - System development project with Scrum and Extreme Programming
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className="vertical-timeline-element--work" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
-          <h3 className="vertical-timeline-element-title">2019: Systemvetenskap, second year</h3>
+          <h3 className="vertical-timeline-element-title">2019: Information Systems, second year</h3>
           <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Continued my studies.
           </p>
           <p>
-            - Databashantering med SQL Server
+            - Database management with SQL Server
             <br />
-            - Klientprogrammering för webbsystem
+            - Client programming for web systems
             <br />
-            - Objektorienterad programmering med C#
+            - Object-oriented programming with C#
             <br />
-            - Webbsystem med .NET
+            - Web development with .NET MVC
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
-          <h3 className="vertical-timeline-element-title">2020: Systemvetenskap, third year</h3>
+          <h3 className="vertical-timeline-element-title">2020: Information Systems, third year</h3>
           <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Continued my studies.
           </p>
           <p>
-            - Retorik och kommunikativt ledarskap
+            - Rhetoric and communicative leadership
             <br />
-            - Måltidskunskap och värdskap
+            - Meal knowledge and hospitality, wine knowledge
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
-          <h3 className="vertical-timeline-element-title">2021: Systemvetenskap, end of third year</h3>
+          <h3 className="vertical-timeline-element-title">2021: Information Systems, end of third year</h3>
           <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>
             Continued my studies.
           </p>
           <p>
-            - Informatik med systemvetenskaplig inriktning, kandidatkurs
+            - Informatics with a specialization in systems science, bachelor's course
             <br />
-            - Informatik, Systemutvecklingsprojekt
+            - Informatics, Frontend development project
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background: '#39D4D5', color: '#fff' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
