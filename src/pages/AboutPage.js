@@ -83,7 +83,8 @@ const AboutPage = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement className="vertical-timeline-element--work" contentStyle={{ background: '#F5F5F5' }} iconStyle={{ background: '#22333B', color: '#FF9277' }} icon={<FontAwesomeIcon icon={faGraduationCap} />}>
           <div className={styles.headerWrapper}>
-            <h3 className="vertical-timeline-element-title"><span className={styles.timelineDetails}>2017:</span> Technical Preparatory Year</h3>
+            <h3 className="vertical-timeline-element-title"><span className={styles.timelineDetails}>2017:</span></h3>
+            <h3 className="vertical-timeline-element-title">Technical Preparatory Year</h3>
           </div>
           <div className={styles.bottomLine} />
           <p className={styles.leadParagraph}>

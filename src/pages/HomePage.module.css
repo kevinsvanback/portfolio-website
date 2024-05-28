@@ -178,6 +178,10 @@
   .typewriter {
     font-size: 35px;
   }
+
+  .sectionTitle {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -187,10 +191,6 @@
   }
 
   .typewriter {
-    font-size: 28px;
-  }
-
-  .sectionTitle {
     font-size: 28px;
   }
 }
