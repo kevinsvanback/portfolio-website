@@ -21,7 +21,7 @@ function App() {
       </div>
 
       <Header />
-      <img className={starStyles.ufo} src={ufo} alt=':(' />
+      <img className={starStyles.ufo} src={ufo} alt=':)' />
       <Routes>
         <Route path={'/'} element={<HomePage />} />
         <Route path={'/about'} element={<AboutPage />} />

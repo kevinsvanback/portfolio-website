@@ -14,37 +14,40 @@
   justify-content: space-between;
   align-items: center;
   height: 80px;
+  gap: 12px;
 }
 
 .logo {
-  color: #fff;
+  color: #f5f5f5;
   font-size: 35px;
+  transition: ease-in-out 0.1s;
 }
 
 .logo:hover {
-  color: #39D4D5;
+  color: #FF9277;
 }
 
 ul {
   width: 420px;
   display: flex;
   justify-content: space-between;
+  gap: 8px;
 }
 
 .link {
 color: #fff;
 text-transform: uppercase;
 border-bottom: 3px solid transparent;
-transition: ease-in 0.5s;
+transition: ease-in 0.2s;
 padding-bottom: 4px;
 }
 
 .link:hover {
-  border-color: #39D4D5;
+  border-color: #FF9277;
 }
 
 .currentPage {
-  border-bottom: 3px solid #39D4D5;
+  border-bottom: 3px solid #FF9277;
 }
 
 @media (max-width: 580px) {

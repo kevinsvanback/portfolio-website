@@ -29,11 +29,11 @@ const ProjectsPage = () => {
       <div className={styles.projectCard}>
         <div className={`${styles.project} ${styles.project3}`}></div>
         <div className={styles.projectInfoContainer}>
-          <h1>Food Order App</h1>
-          <p>React food order app. Select your items and procees to checkout.</p>
+          <h1>Perssons Måleri i Trosa</h1>
+          <p>Contact page for local painter company.</p>
           <div className={styles.buttonContainer}>
-            <a href={'https://kevinsvanback-react-food-order-app.netlify.app/'} target='_blank' rel='noopener noreferrer' className={styles.button}>Live Demo</a>
-            <a href={'https://github.com/kevinsvanback/react-food-order-app'} target='_blank' rel='noopener noreferrer' className={styles.button}>Source Code</a>
+            <a href={'https://perssonsmaleri.se/'} target='_blank' rel='noopener noreferrer' className={styles.button}>Live Demo</a>
+            <a href={'https://github.com/kevinsvanback/perssonsMaleri'} target='_blank' rel='noopener noreferrer' className={styles.button}>Source Code</a>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import { faCss3Alt, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import profileImg from '../images/profile.jpg';
+import profileTransparent from '../images/profile-transparent.png';
 import styles from './HomePage.module.css';
 
 
@@ -11,13 +11,13 @@ const HomePage = () => {
     <div className={styles.homePage}>
 
       <div className={styles.profileContainer}>
-        <img className={styles.profileImg} src={profileImg} alt=':(' />
+        <img className={styles.profileImg} src={profileTransparent} alt=':)' />
       </div>
 
       <section className={styles.typewriterSection}>
         <div className={styles.typewriter}>
-          <p>I am Kevin the </p> <Typewriter options={{
-            strings: ['frontend developer'],
+          I am Kevin the <Typewriter options={{
+            strings: ['<span style="color: #FF9277;">frontend</span> developer'],
             autoStart: true,
             loop: true,
           }} />

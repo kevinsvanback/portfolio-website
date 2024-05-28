@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
 .projectsPage {
   display: flex;
   justify-content: center;
@@ -15,46 +17,54 @@
   justify-content: space-between;
   width: 600px;
   border-radius: 6px 6px 4px 4px;
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 .projectCard h1, 
 .projectCard p {
-  color: #1f2833;
+  color: #22333B;
 }
 
 .projectInfoContainer {
-  margin: 4px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
 }
 
 .buttonContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 .button {
-  font-family: 'Cairo', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  font-family: 'Montserrat', sans-serif;
   width: 150px;
   height: 30px;
-  border-radius: 4px;
-  color: #fff;
-  background-color: #1f2833;
+  border-radius: 8px;
+  color: #CAD2D6;
+  background-color: #22333B;
   border: none;
   text-align: center;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .button:hover {
-  background-color: #39D4D5;
+  background-color: #333E3A;
 }
 
 .project {
   height: 195px;
   border-radius: 4px 4px 0 0;
   transition: ease-in-out 2s;
-  border-bottom: 2px solid #39D4D5;
+  border-bottom: 2px solid #FF9277;
 }
 
 .project1 {
@@ -68,7 +78,7 @@
 }
 
 .project3 {
-  background: url('../images/food-order.png');
+  background: url('../images/perssons-maleri.png');
   background-size: cover;
 }
 
@@ -100,6 +110,21 @@
     justify-content: space-between;
     align-items: center;
     height: 65px;
+    gap: 6px;
+    margin-top: 6px;
+  }
+
+  .button {
+    width: 90%;
+  }
+
+  .projectInfoContainer {
+    gap: 6px;
+    padding: 12px 24px;
+  }
+
+  .projectInfoContainer > h1 {
+    font-size: 24px;
   }
 }
 

@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7283650b.css",
-    "main.js": "/static/js/main.d5c7efaa.js",
-    "static/media/food-order.png": "/static/media/food-order.ab1522967951be37719f.png",
-    "static/media/crypto-tracker.png": "/static/media/crypto-tracker.ed3be18ba71b27a5afcf.png",
-    "static/media/profile.jpg": "/static/media/profile.1653ab63d267f6e43feb.jpg",
+    "main.css": "/static/css/main.6eae9bbc.css",
+    "main.js": "/static/js/main.c1fdefc1.js",
+    "static/media/chat-room.png": "/static/media/chat-room.95def376eb2d25ec4e91.png",
+    "static/media/crypto-tracker.png": "/static/media/crypto-tracker.8eea3d6c0a0d6d737cc8.png",
+    "static/media/food-order.png": "/static/media/food-order.cfd8243fc5d17ddc819a.png",
+    "static/media/ufo.png": "/static/media/ufo.778778483d3d805307ce.png",
+    "static/media/profile-transparent.png": "/static/media/profile-transparent.0de22cdcd4d5c0a9c12d.png",
+    "static/media/CV-kevin-svanback.pdf": "/static/media/CV-kevin-svanback.87d6f6290d7c3a49e074.pdf",
+    "static/media/arrow.png": "/static/media/arrow.4a1223da06f15b0be4be.png",
     "index.html": "/index.html",
-    "main.7283650b.css.map": "/static/css/main.7283650b.css.map",
-    "main.d5c7efaa.js.map": "/static/js/main.d5c7efaa.js.map"
+    "main.6eae9bbc.css.map": "/static/css/main.6eae9bbc.css.map",
+    "main.c1fdefc1.js.map": "/static/js/main.c1fdefc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7283650b.css",
-    "static/js/main.d5c7efaa.js"
+    "static/css/main.6eae9bbc.css",
+    "static/js/main.c1fdefc1.js"
   ]
 }

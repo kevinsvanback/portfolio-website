@@ -14,14 +14,19 @@
   z-index: 2;
   font-family: 'Cairo', sans-serif;
   padding: 15px 40px;
-  border-radius: 4px;
-  color: #fff;
-  background-color: #39D4D5;
-  border: none;
+  border-radius: 99px;
+  color: #FF9277;
+  background-color: #22333B;
+  border: 4px solid #fff;
   text-align: center;
   font-size: x-large;
   align-self: center;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
+}
+
+.button:hover {
+  background-color: rgba(34, 51, 59, 0.5);
+
 }
 
 .icon {
@@ -30,20 +35,42 @@
 
 .leadParagraph {
   font-style: italic;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
 }
 
 .aboutPage h3, 
 .aboutPage p {
   margin: 0;
-  color: #1f2833;
+  color: #22333B;
 }
 
 .bottomLine {
   z-index: 1;
   margin: 0 auto;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   height: 2px;
   width: 100%;
-  background: #39D4D5;
+  background: #CAD2D6;
+}
+
+.timelineDetails {
+  color: #FF9277;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.timelineFontStyle {
+  font-weight: 500;
+  font-style: italic;
+}
+
+@media (max-width: 460px) {
+  .aboutPage {
+    gap: 24px;
+  }
 }
