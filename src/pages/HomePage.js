@@ -25,7 +25,7 @@ const HomePage = () => {
       </section>
 
       <section className={styles.floatingSectionWrapper}>
-        <h1>My Expertise</h1>
+        <h1>My expertise</h1>
 
 
         <div className={styles.floatingSection}>

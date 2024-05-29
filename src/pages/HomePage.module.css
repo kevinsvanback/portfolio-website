@@ -159,7 +159,7 @@
 
 @media (max-width: 460px) {
   .homePage {
-    gap: 30px;
+    gap: 36px;
   }
 
   .profileContainer {
@@ -212,7 +212,7 @@
 .floatingHeaderWrapper {
   display: flex;
   margin: 12px;
-  gap: 4px;
+  gap: 6px;
   align-items: center;
   justify-content: center;
 }
@@ -271,10 +271,14 @@
 }
 
 @media (max-width: 900px) {
+  .floatingSectionWrapper {
+    gap: 18px;
+  }
+
   .floatingSection {
     flex-direction: column;
-    height: 350px;
-    margin: 0 12px;
+    height: 300px;
+    margin: 0 24px;
     border-radius: 24px;
   }
 
@@ -284,12 +288,25 @@
   }
 
   .floatingIcon {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .floatingHeader{
+    font-size: 18px;
   }
 
   .floating > p {
     font-size: 12px;
+  }
+
+  .floatingSectionWrapper > h1:first-child {
+    font-size: 22px;
+  }
+
+  .floatingHeaderWrapper > svg {
+    width: 20px;
+    height: 20px;
   }
 }
 
