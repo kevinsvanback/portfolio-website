@@ -67,14 +67,6 @@
   margin: 15px;
 }
 
-.bottomLine {
-  z-index: 1;
-  margin: 0 auto;
-  height: 2px;
-  width: 65px;
-  background: #FF9277;
-}
-
 .processContainer {
   height: 220px;
   display: flex;
@@ -192,5 +184,269 @@
 
   .typewriter {
     font-size: 28px;
+  }
+}
+
+/* Floating section */
+.floatingSection {
+  display: flex;
+  background-color: transparent;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  margin: 0 40px;
+}
+
+.floatingSection > div:first-child {
+  border-right: 2px solid #fff;
+}
+
+.floatingWrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 250px;
+}
+
+.floatingHeaderWrapper {
+  display: flex;
+  margin: 12px;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.floatingHeaderWrapper > svg {
+  width: 30px;
+  height: 30px;
+}
+
+.floatingHeader {
+  text-align: center;
+}
+
+.floatinHeaderSvg {
+  height: 30px;
+  width: 30px;
+  fill: #FF9277;
+}
+
+/* Flex container styling */
+.floatingContainer {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Common floating styles */
+.floating {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  color: #fff;
+  background: transparent;
+  animation: 6s infinite ease-in-out;
+}
+
+.floatingIcon {
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+}
+
+.floatingSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.floatingSectionWrapper > h1:first-child {
+  font-size: 42px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .floatingSection {
+    flex-direction: column;
+    height: 350px;
+    margin: 0 12px;
+    border-radius: 24px;
+  }
+
+  .floatingSection > div:first-child {
+    border-bottom: 2px solid #fff;
+    border-right: none;
+  }
+
+  .floatingIcon {
+    height: 25px;
+    width: 25px;
+  }
+
+  .floating > p {
+    font-size: 12px;
+  }
+}
+
+/* Floating elements */
+.floating1 {
+  animation: floating1 8s infinite ease-in-out;
+}
+
+.floating2 {
+  animation: floating2 10s infinite ease-in-out;
+}
+
+.floating3 {
+  animation: floating3 12s infinite ease-in-out;
+}
+
+.floating4 {
+  animation: floating4 9s infinite ease-in-out;
+}
+
+.floating5 {
+  animation: floating5 11s infinite ease-in-out;
+}
+
+.floating6 {
+  animation: floating6 13s infinite ease-in-out;
+}
+
+/* Keyframes for each animation */
+@keyframes floating1 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(20px, 20px);
+  }
+
+  50% {
+    transform: translate(-20px, -15px);
+  }
+
+  75% {
+    transform: translate(15px, -20px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-20px, 15px);
+  }
+
+  50% {
+    transform: translate(20px, -20px);
+  }
+
+  75% {
+    transform: translate(-15px, 20px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating3 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(15px, -20px);
+  }
+
+  50% {
+    transform: translate(-20px, 20px);
+  }
+
+  75% {
+    transform: translate(20px, -15px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating4 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(20px, -15px);
+  }
+
+  50% {
+    transform: translate(-15px, 20px);
+  }
+
+  75% {
+    transform: translate(-20px, -20px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating5 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-15px, 20px);
+  }
+
+  50% {
+    transform: translate(20px, -20px);
+  }
+
+  75% {
+    transform: translate(20px, 15px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating6 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(20px, -20px);
+  }
+
+  50% {
+    transform: translate(15px, 20px);
+  }
+
+  75% {
+    transform: translate(-20px, 15px);
+  }
+
+  100% {
+    transform: translate(0, 0);
   }
 }
