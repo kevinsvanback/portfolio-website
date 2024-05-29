@@ -37,3 +37,24 @@ p {
 ul {
   list-style: none;
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #22333b;
+  cursor: default;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  cursor: default;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
