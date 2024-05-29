@@ -1,11 +1,9 @@
-import { faCss3Alt, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faCss3Alt, faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import profileTransparent from '../images/profile-transparent-455x455.png';
 import styles from './HomePage.module.css';
-import paletteSvg from '../images/palette-regular.svg'
 
 
 const HomePage = () => {
