@@ -310,7 +310,7 @@
   }
 }
 
-/* Floating elements  */
+/* Floating elements */
 .floating1 {
   animation: floating1 8s infinite ease-in-out;
 }
@@ -333,6 +333,14 @@
 
 .floating6 {
   animation: floating6 13s infinite ease-in-out;
+}
+
+.floating7 {
+  animation: floating7 7s infinite ease-in-out;
+}
+
+.floating8 {
+  animation: floating8 14s infinite ease-in-out;
 }
 
 /* Keyframes for each animation */
@@ -461,6 +469,50 @@
 
   75% {
     transform: translate(-20px, 15px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating7 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(20px, 15px);
+  }
+
+  50% {
+    transform: translate(-15px, -20px);
+  }
+
+  75% {
+    transform: translate(-20px, 20px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating8 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-20px, -15px);
+  }
+
+  50% {
+    transform: translate(20px, 20px);
+  }
+
+  75% {
+    transform: translate(15px, -20px);
   }
 
   100% {
