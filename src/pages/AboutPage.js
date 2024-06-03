@@ -24,19 +24,19 @@ const AboutPage = () => {
             Software developer.
           </p>
           <p>
-            <span className={styles.timelineDetails}>- Frontend Development:</span> Expert in HTML, CSS, JavaScript, React, and TypeScript.
+            <span className={styles.timelineDetails}>- Frontend development:</span> Expert in HTML, CSS, JavaScript, React, and TypeScript.
             <br />
             <span className={styles.timelineDetails}>- Design:</span> Utilizes Figma, Adobe Photoshop, and Premiere Pro to create sketches, videos, and images.
             <br />
-            <span className={styles.timelineDetails}>- UI Components:</span> Experience in building and documenting components with Storybook.
+            <span className={styles.timelineDetails}>- UI components:</span> Experience in building and documenting components with Storybook.
             <br />
-            <span className={styles.timelineDetails}>- Version Control and Collaboration:</span> Works daily with Git and Azure DevOps.
+            <span className={styles.timelineDetails}>- Version control and collaboration:</span> Works daily with Git and Azure DevOps.
             <br />
-            <span className={styles.timelineDetails}>- Fullstack Exposure:</span> Basic knowledge in C#, PostgreSQL, .NET, MVC, and APIs.
+            <span className={styles.timelineDetails}>- Fullstack exposure:</span> Basic knowledge in C#, PostgreSQL, .NET, MVC, and APIs.
             <br />
-            <span className={styles.timelineDetails}>- Web Management:</span> Updates and maintains the company's website via Wix.
+            <span className={styles.timelineDetails}>- Web management:</span> Updates and maintains the company's website via Wix.
             <br />
-            <span className={styles.timelineDetails}>- Customer Interaction:</span> Participates in meetings with clients to discuss requirements and preferences, and offers technical support.
+            <span className={styles.timelineDetails}>- Customer interaction:</span> Participates in meetings with clients to discuss requirements and preferences, and offers technical support.
             <br />
             <span className={styles.timelineDetails}>- Events:</span> Represents the company at company exhibitions and other events.
           </p>
