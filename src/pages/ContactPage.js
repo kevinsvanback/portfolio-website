@@ -1,5 +1,3 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import arrow from '../images/arrow.png';
 import styles from './ContactPage.module.css';
