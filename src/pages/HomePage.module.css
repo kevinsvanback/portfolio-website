@@ -136,6 +136,16 @@
   }
 }
 
+@media (max-width: 720px) {
+  .typewriter {
+    font-size: 45px;
+  }
+
+  .typewriterSection {
+    margin: auto 12px;
+  }
+}
+
 @media (max-width: 640px) {
   .processContainer {
     flex-direction: column;
@@ -148,16 +158,12 @@
 }
 
 @media (max-width: 610px) {
-  .typewriter {
-    font-size: 45px;
-  }
-
   .sectionTitle {
     line-height: 1.4;
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .homePage {
     gap: 36px;
   }
