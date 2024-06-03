@@ -52,32 +52,32 @@ const AboutPage = () => {
             University studies in information systems.
           </p>
           <p>
-            - Informatics with a specialization in systems science.
+            <span className={styles.timelineDetails}>-</span> Informatics with a specialization in systems science.
             <br />
-            - Informatics, frontend development project.
+            <span className={styles.timelineDetails}>-</span> Informatics, frontend development project.
           </p>
           <p>
-            - Interaction design.
+            <span className={styles.timelineDetails}>-</span> Interaction design.
             <br />
-            - Requirements management.
+            <span className={styles.timelineDetails}>-</span> Requirements management.
             <br />
-            - Object-oriented analysis and design.
+            <span className={styles.timelineDetails}>-</span> Object-oriented analysis and design.
             <br />
-            - Development project with Scrum and Extreme Programming.
+            <span className={styles.timelineDetails}>-</span> Development project with Scrum and Extreme Programming.
           </p>
           <p>
-            - Database management with SQL Server.
+            <span className={styles.timelineDetails}>-</span> Database management with SQL Server.
             <br />
-            - Client programming for web systems.
+            <span className={styles.timelineDetails}>-</span> Client programming for web systems.
             <br />
-            - Object-oriented programming with C#.
+            <span className={styles.timelineDetails}>-</span> Object-oriented programming with C#.
             <br />
-            - Web development with .NET MVC.
+            <span className={styles.timelineDetails}>-</span> Web development with .NET MVC.
           </p>
           <p>
-            - Rhetoric and communicative leadership.
+            <span className={styles.timelineDetails}>-</span> Rhetoric and communicative leadership.
             <br />
-            - Meal knowledge and hospitality, including wine knowledge.
+            <span className={styles.timelineDetails}>-</span> Meal knowledge and hospitality, including wine knowledge.
           </p>
 
         </VerticalTimelineElement>
@@ -91,13 +91,13 @@ const AboutPage = () => {
             Preparation for university.
           </p>
           <p>
-            - Physics
+            <span className={styles.timelineDetails}>-</span> Physics
             <br />
-            - Mathematics
+            <span className={styles.timelineDetails}>-</span> Mathematics
             <br />
-            - Chemistry
+            <span className={styles.timelineDetails}>-</span> Chemistry
             <br />
-            - Computer science
+            <span className={styles.timelineDetails}>-</span> Computer science
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

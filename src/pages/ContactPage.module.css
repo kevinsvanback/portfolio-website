@@ -51,16 +51,17 @@
   display: flex;
   gap: 10px;
   font-size: 30px;
-}
-
-.contactHeading .icon,
-.contactHeading h3 {
-  margin: auto;
-  line-height: 0;
+  align-items: center;
 }
 
 .contactHeading h3 {
   cursor: default;
+}
+
+.svgIcon {
+  fill: #fff;
+  height: 30px;
+  width: 30px;
 }
 
 .chevronIcon {
@@ -112,6 +113,11 @@
 @media (max-width: 430px) {
   .contactHeading {
     font-size: 20px;
+  }
+
+  .svgIcon {
+    height: 22px;
+    width: 22px;
   }
 
   .contactContent {
