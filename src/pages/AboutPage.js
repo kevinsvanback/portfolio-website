@@ -24,19 +24,19 @@ const AboutPage = () => {
             Software developer.
           </p>
           <p>
-            <span className={styles.timelineDetails}>- Frontend development:</span> Expert in HTML, CSS, JavaScript, React, and TypeScript.
+            <span className={styles.timelineDetails}>- Frontend development:</span> Expert in creating engaging user interfaces and functional solutions using HTML, CSS, JavaScript, React, and TypeScript.
             <br />
-            <span className={styles.timelineDetails}>- Design:</span> Utilizes Figma, Adobe Photoshop, and Premiere Pro to create sketches, videos, and images.
+            <span className={styles.timelineDetails}>- Design:</span> Utilizes Figma, Adobe Photoshop, and Premiere Pro to create inspiring sketches, videos, and images. As the lead designer, I am responsible for collaborating with clients to develop user interfaces and designs.
             <br />
-            <span className={styles.timelineDetails}>- UI components:</span> Experience in building and documenting components with Storybook.
+            <span className={styles.timelineDetails}>- UI components:</span> Builds and documents components in Storybook.
             <br />
-            <span className={styles.timelineDetails}>- Version control and collaboration:</span> Works daily with Git and Azure DevOps.
+            <span className={styles.timelineDetails}>- Version control and collaboration:</span> Manages Git and Azure DevOps daily for smooth collaboration and version control.
             <br />
-            <span className={styles.timelineDetails}>- Fullstack exposure:</span> Basic knowledge in C#, PostgreSQL, .NET, MVC, and APIs.
+            <span className={styles.timelineDetails}>- Fullstack development:</span> Basic knowledge in C#, PostgreSQL, .NET, MVC, and APIs.
             <br />
             <span className={styles.timelineDetails}>- Web management:</span> Updates and maintains the company's website via Wix.
             <br />
-            <span className={styles.timelineDetails}>- Customer interaction:</span> Participates in meetings with clients to discuss requirements and preferences, and offers technical support.
+            <span className={styles.timelineDetails}>- Customer interaction:</span> Takes a leading role in client meetings, providing not only discussion on requirements and desires but also technical support.
             <br />
             <span className={styles.timelineDetails}>- Events:</span> Represents the company at company exhibitions and other events.
           </p>
