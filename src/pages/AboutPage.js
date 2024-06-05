@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import myCV from '../images/CV_kevin_svanback_2024.pdf';
+import myCV from '../images/cv_kevin_svanback_2024_en.pdf';
 import styles from './AboutPage.module.css';
 
 const AboutPage = () => {
